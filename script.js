@@ -31,3 +31,23 @@ function myFunction(a, b) {
 }
 const jahangir = myFunction(10, 20);
 console.log(jahangir);  
+
+
+// object
+
+const car = {
+    Name: "Discovery",
+    Model: 400,
+    weight: "1000kg",
+    Color: "red",
+    Start: function () {
+        console.log("Car is started");
+    },
+    Drive: function () {
+        console.log('Car is Driving')
+    },
+    Stop: function () {
+        console.log("Car is stoped");
+    }
+};
+console.log(car.weight);
