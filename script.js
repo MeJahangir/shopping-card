@@ -17,3 +17,17 @@ document.getElementById('btn-case-plus').addEventListener('click', function () {
     caseNumberField.value = newNumber;
 
 });
+
+
+// test
+function Name() {
+    console.log("md jahangir alam");
+}
+Name();
+
+// test
+function myFunction(a, b) {
+    return a*b;
+}
+const jahangir = myFunction(10, 20);
+console.log(jahangir);  
