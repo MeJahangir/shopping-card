@@ -32,7 +32,9 @@ function myFunction(a, b) {
 const jahangir = myFunction(10, 20);
 console.log(jahangir);  
 
-
+function alam(params) {
+    
+}
 // object
 
 const car = {
@@ -51,3 +53,5 @@ const car = {
     }
 };
 console.log(car.weight);
+
+
