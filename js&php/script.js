@@ -36,3 +36,17 @@ const part = txt.slice(8,14);
 console.log(part);
 // result Banana 
 
+// Convert string to uppercase and lowercase
+// html file hidden
+
+
+function myFunction() {
+    let text = document.getElementById("demo").innerHTML;
+    document.getElementById("demo").innerHTML =
+    text.toLowerCase();
+  }
+  
+  function test(){
+          const txt = document.getElementById("demo").innerHTML;
+          document.getElementById("demo").innerHTML = txt.toUpperCase();
+      }
