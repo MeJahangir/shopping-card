@@ -35,3 +35,4 @@ const txt = "Apple , Banana , Orange";
 const part = txt.slice(8,14);
 console.log(part);
 // result Banana 
+
