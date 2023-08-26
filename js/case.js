@@ -4,7 +4,6 @@
 3. convert the number to an integer
 4. calculate the new case number
 5. set the value to the case number field
-
 */
 
 function updateCaseNumber(isIncrease){

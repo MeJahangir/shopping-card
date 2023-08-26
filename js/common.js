@@ -15,7 +15,7 @@ function calculateSubTotal(){
     // calculate total
     const currentPhoneTotal = getTextElementValueById('phone-total');
     const currentCaseTotal = getTextElementValueById('case-total');
-    
+               z 
     const currentSubTotal = currentPhoneTotal + currentCaseTotal;
     setTextElementValueById('sub-total', currentSubTotal);
 
@@ -26,4 +26,4 @@ function calculateSubTotal(){
 
     const finalAmount = currentSubTotal + taxAmount;
     setTextElementValueById('final-total', finalAmount);
-}
+}               
