@@ -17,3 +17,16 @@ console.log(typeof true);
 
 console.log(typeof asdfg);
 // result undefined         
+
+// Equal chacking
+let x = "jahangir";
+let y = new String("jahangir")
+console.log(x==y);
+// result true 
+
+// Not equal (but value smae)
+var joy = 100;
+var mamun = 100;
+console.log( joy === jahangir );
+// result false 
+
